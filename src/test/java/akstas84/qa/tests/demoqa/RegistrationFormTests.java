@@ -76,7 +76,7 @@ public class RegistrationFormTests extends TestBase {
       step("Submit form", () ->
               $("#submit").click());
       });
-    
+
     step("Verify successful form submit", () -> {
       $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
     });
