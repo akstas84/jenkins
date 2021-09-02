@@ -1,5 +1,6 @@
 package akstas84.qa.tests.demoqa;
 
+import akstas84.qa.tests.TestBase;
 import com.github.javafaker.Faker;
 import org.junit.jupiter.api.Test;
 
