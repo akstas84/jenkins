@@ -23,7 +23,7 @@ public class Attach {
     return ((TakesScreenshot) getWebDriver()).getScreenshotAs(OutputType.BYTES);
   }
 
-  public static void browserConsoleLogs(String attachName, String message){
+  public static void browserConsoleLogs(){
     attachAsText(
             "Browser console logs",
             String.join("\n", Selenide.getWebDriverLogs(BROWSER))
