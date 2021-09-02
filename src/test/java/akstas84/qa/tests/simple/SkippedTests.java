@@ -1,4 +1,4 @@
-package akstas84.qa.tests;
+package akstas84.qa.tests.simple;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
