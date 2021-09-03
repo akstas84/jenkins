@@ -55,3 +55,13 @@ task smoke(type: Test) {
         includeTags 'smoke'
     }
 }
+
+task properties_tests(type: Test) {
+    systemProperties(System.getProperties())
+    println "[build.gradle]: properties test here"
+    println "[build.gradle]: " + System.getProperty("browser")
+    useJUnitPlatform {
+        includeTags 'properties'
+    }
+}
+
